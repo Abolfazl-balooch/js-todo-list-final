@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo List</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <style>
+    .completed {
+      text-decoration: line-through;
+      background-color: lightgreen;
+    }
+  </style>
+</head>
+<body class="container mt-5">
+
+  <h2 class="text-center mb-4">Todo List</h2>
+
+  <div class="input-group mb-3">
+    <input type="text" id="todoInput" class="form-control" placeholder="Add new task">
+    <button id="addBtn" class="btn btn-primary">Add</button>
+  </div>
+
+  <div class="mb-3 text-center">
+    <button class="btn btn-secondary filter" data-filter="all">All</button>
+    <button class="btn btn-secondary filter" data-filter="active">Active</button>
+    <button class="btn btn-secondary filter" data-filter="completed">Completed</button>
+  </div>
+
+  <ul id="todoList" class="list-group"></ul>
+  <p id="stats" class="text-center mt-3"></p>
+
+<button id="clearCompleted" class="btn btn-warning w-100 mt-2">
+  Clear Completed
+</button>
+
+
+  <script src="todo list.js"></script>
+</body>
+</html>
