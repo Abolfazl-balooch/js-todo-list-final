@@ -57,6 +57,5 @@
 - کار با map، filter و reduce
 - ذخیره داده‌ها با localStorage
 
----
+--)
 
-(لینک GitHub Pages را اینجا قرار دهید)
